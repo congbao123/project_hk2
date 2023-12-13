@@ -26,13 +26,17 @@ return new class extends Migration
             $table->string('status')->nullable();
             $table->string('plan')->nullable();
             $table->rememberToken();
-            $table->timestamps();
+            $table->timestamps();//truong cong bao chinh sua
         });
     }
 
     /**
      * Reverse the migrations.
+<<<<<<< HEAD
      * Luan
+=======
+     * truong cong baosua git
+>>>>>>> CongBao
      */
     public function down(): void
     {
