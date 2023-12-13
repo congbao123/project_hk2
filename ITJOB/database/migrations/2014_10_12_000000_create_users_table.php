@@ -32,6 +32,7 @@ return new class extends Migration
 
     /**
      * Reverse the migrations.
+     * truong cong baosua git
      */
     public function down(): void
     {
