@@ -26,7 +26,7 @@ return new class extends Migration
             $table->string('status')->nullable();
             $table->string('plan')->nullable();
             $table->rememberToken();
-            $table->timestamps();
+            $table->timestamps();//truong cong bao chinh sua
         });
     }
 
